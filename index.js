@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function(event) {
-    var dataText = ["James Liu"];
+    var dataText = ["Howdy! My name is James Liu."];
 
     function typewriter(text, i, fnCallback) {
         if(i < (text.length)) {

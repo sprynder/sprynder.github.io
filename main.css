@@ -114,3 +114,40 @@ body {
 	margin-bottom: 0;
 	text-transform: uppercase;
 }
+
+#footer {
+    position: fixed;
+    margin-top: 15px;
+    height: 50 ;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+    bottom: 0;
+  }
+
+#copyright {
+    text-align: center;
+    color: #589b37;
+    font-size: 1em;
+    padding-bottom: 2em;
+}
+
+#social-bar {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1em;
+    padding-bottom: 0.75em;
+}
+
+.center {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.front{
+    flex: 1 0 auto;
+}   
+.icon-link {
+    padding-right: 0.5em;
+}
